@@ -1,0 +1,18 @@
+# cruft
+/front/.idea
+/back/.idea
+/.idea
+
+# dependencies
+/front/node_modules
+/back/node_modules
+
+# logs
+/front/npm-debug.log
+/back/npm-debug.log
+
+# Next build
+/front/.next/**
+
+# dotenv environment variables file
+.env
