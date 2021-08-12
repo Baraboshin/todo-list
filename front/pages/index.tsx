@@ -1,9 +1,10 @@
-import React from "react";
+import React from 'react';
+import MainLayout from '../layouts/mainLayout';
 
-export default function Home() {
+const Home = ()=> {
   return (
-    <div>
-      123
-    </div>
+    <MainLayout title={'Home page'}/>
   );
-}
+};
+
+export default Home;
