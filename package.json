@@ -4,7 +4,12 @@
   "description": "",
   "main": ".eslintrc.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint:prettier": "prettier --check .",
+    "fix:prettier": "prettier --write .",
+    "lint:eslint": "eslint --ext .ts,.js .",
+    "fix:eslint": "eslint --ext .ts,.js . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": ""
   },
   "repository": {
     "type": "git",
@@ -30,6 +35,7 @@
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-unicorn": "^35.0.0",
+    "prettier": "^2.3.2",
     "typescript": "^4.3.5"
   }
 }
